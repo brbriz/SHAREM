@@ -8536,7 +8536,7 @@ def splitDirectory(filename):
 
 
 
-def bramwellStart():
+def brbrizStart():
 	global realEAX2
 	global realEAX
 
@@ -8582,7 +8582,7 @@ def bramwellStart():
 	# InMem2()
 
 
-def bramwellStart2():
+def brbrizStart2():
 	mode=""
 	findAllPebSequences(mode)
 
@@ -8597,12 +8597,12 @@ def bramwellStart2():
 # AustinTesting()
 
 
-# bramwellStart()
+# brbrizStart()
 # testing8Start()
 
 
 # testing8Start()
-def bramwellEncodeDecodeWork(shellArg):
+def brbrizEncodeDecodeWork(shellArg):
 	global filename
 	global rawData2
 		
@@ -8811,7 +8811,7 @@ def shellDisassemblyStart2(shellArg):
 # printBytes(fromShellTxt)
 
 
-def bramwellDisassembly():
+def brbrizDisassembly():
 	global shellcode4
 	global filename
 	testing="shellcodes\\testing.txt"
@@ -8823,7 +8823,7 @@ def bramwellDisassembly():
 	# shellDisassemblyStart(shellcode4)
 
 
-def bramwellDisassembly2():
+def brbrizDisassembly2():
 	global shellcode4
 	global filename
 	global rawData2
@@ -8846,18 +8846,18 @@ if __name__ == "__main__":
 	except:
 		pass
 	###################################################################
-	##Bramwell's work - may comment out if need be
+	##brbriz's work - may comment out if need be
 	mode=""
-	# bramwellDisassembly()
+	# brbrizDisassembly()
 	# findAllPebSequences(mode)
 	# printSavedPEB()
 	# findAllPushRet()
 	# printSavedPushRet()
 
-	# bramwellStart()
+	# brbrizStart()
 
-	# bramwellDisassembly()   # .txt file
-	# bramwellStart2()
+	# brbrizDisassembly()   # .txt file
+	# brbrizStart2()
 
 
 
@@ -8891,10 +8891,10 @@ if __name__ == "__main__":
 	# 	print (str(hex(listOffset[t])) + "\t" + e)
 	# 	t+=1
 
-	# bramwellDisassembly2()   #.bin file? maybe? not sure
+	# brbrizDisassembly2()   #.bin file? maybe? not sure
 	# addComments()
  
-	# bramwellEncodeDecodeWork(filename)
+	# brbrizEncodeDecodeWork(filename)
 	# print ("final DIS")
 	# printTempDis()
 
